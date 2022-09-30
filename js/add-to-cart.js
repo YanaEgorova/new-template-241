@@ -51,17 +51,15 @@ function addToCart(e) {
         okay = false;
        }
     })
-
-    // ADD TO LOCAL STORAGE
-    if (okay){
+   // ADD TO LOCAL STORAGE
+   if (okay){
+    if(localStorage(productId) != false) {
         if(cartSpan) {
             cartSpan.textContent = Number(cartSpan.textContent) + 1;
         }
-       
-        showSuccessMessage(successMessage, successMessageSpan, name);
-        localStorage(productId);
     }
-    
+    showSuccessMessage(successMessage, successMessageSpan, name);
+}
 
 }
 
