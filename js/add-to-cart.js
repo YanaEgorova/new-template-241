@@ -51,6 +51,7 @@ function addToCart(e) {
         okay = false;
        }
     })
+
    // ADD TO LOCAL STORAGE
    if (okay){
     if(localStorage(productId) != false) {

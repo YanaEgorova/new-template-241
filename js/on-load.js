@@ -28,7 +28,7 @@ window.onload = function() {
       }
    }
 
-  
+
 };
 
 
@@ -82,7 +82,7 @@ function removeItem(e) {
       showEmptyMessage();
   }
 
- 
+
 }
 
 function showEmptyMessage() {
