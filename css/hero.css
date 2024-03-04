@@ -133,6 +133,10 @@
         text-align: right;
         overflow: hidden;
     }
+    .hero .title {
+        max-width: 60rem;
+        margin-left: auto;
+    }
     /* .hero .title::before { 
         display: block;
         content: 'A great place to be';
